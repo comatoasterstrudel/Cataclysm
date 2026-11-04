@@ -67,8 +67,6 @@ class Cataclysm {
 
 		if (onApplicationCrash != null)
 			onApplicationCrash();
-
-		Sys.exit(1);
 	}
 	#end
 
