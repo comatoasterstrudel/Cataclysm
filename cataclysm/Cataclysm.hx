@@ -43,7 +43,6 @@ class Cataclysm {
 		var message:String = '${logTitle}\n';
 		message += "\nApp Title: " + openfl.Lib.application.meta.get('file');
 		message += "\nApp Company: " + openfl.Lib.application.meta.get('company');
-		message += "\nApp Package(?): " + openfl.Lib.application.meta.get('packageName');
 		message += "\nApp Version: " + openfl.Lib.application.meta.get('version');
 		message += "\nBuild Number: " + openfl.Lib.application.meta.get('build');
 		message += "\nOperating System: " + Capabilities.os;
